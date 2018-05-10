@@ -1,1 +1,4 @@
-include ':app'
+include ':app', ':voicer'
+
+project (':voicer').projectDir = new File('../voicerframework/voicer')
+
